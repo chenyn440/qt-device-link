@@ -730,6 +730,7 @@ DeviceLinkCore_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOS
   CMakeFiles/4.3.0/CMakeCXXCompiler.cmake \
   CMakeFiles/4.3.0/CMakeSystem.cmake \
   DeviceLinkCore_autogen/moc_predefs.h \
+  /Users/chenyongnuan/Desktop/百度/deviceLink/src/appversion.h.in \
   /Users/chenyongnuan/Desktop/百度/deviceLink/src/devicestate.cpp \
   /Users/chenyongnuan/Desktop/百度/deviceLink/src/devicestate.h \
   /Users/chenyongnuan/Desktop/百度/deviceLink/src/mainwindow.cpp \
@@ -985,6 +986,7 @@ DeviceLinkCore_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOS
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake \
+  /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/macos/Info.plist.app.in \
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/qt.toolchain.cmake \
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
@@ -1650,6 +1652,8 @@ DeviceLinkCore_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOS
 
 /usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h:
 
+/usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Versions/A/Headers/qendian.h:
+
 /usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Versions/A/Headers/qtypes.h:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Versions/A/Headers/qdebug.h:
@@ -1725,6 +1729,8 @@ DeviceLinkCore_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOS
 /Users/chenyongnuan/Desktop/百度/deviceLink/src/devicestate.h:
 
 /Users/chenyongnuan/Desktop/百度/deviceLink/src/devicestate.cpp:
+
+/Users/chenyongnuan/Desktop/百度/deviceLink/src/appversion.h.in:
 
 CMakeFiles/4.3.0/CMakeCXXCompiler.cmake:
 
@@ -2770,6 +2776,8 @@ DeviceLinkCore_autogen/moc_predefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__type_traits/can_extract_key.h:
 
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/macos/Info.plist.app.in:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__type_traits/alignment_of.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__iterator/access.h:
@@ -3315,8 +3323,6 @@ DeviceLinkCore_autogen/moc_predefs.h:
 /usr/local/Cellar/qtbase/6.10.2/lib/QtGui.framework/Versions/A/Headers/qevent.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__configuration/language.h:
-
-/usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Versions/A/Headers/qendian.h:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h:
 

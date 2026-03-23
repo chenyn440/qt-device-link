@@ -5,6 +5,7 @@
  /Users/chenyongnuan/Desktop/百度/deviceLink/CMakeLists.txt
  /Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/4.3.0/CMakeCXXCompiler.cmake
  /Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/4.3.0/CMakeSystem.cmake
+ /Users/chenyongnuan/Desktop/百度/deviceLink/src/appversion.h.in
  /Users/chenyongnuan/Desktop/百度/deviceLink/src/main.cpp
  /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/FindWrapAtomic.cmake
  /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/FindWrapOpenGL.cmake
@@ -1056,6 +1057,7 @@ CMakeFiles/DeviceLink.dir/src/main.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h
  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h
+ /Users/chenyongnuan/Desktop/百度/deviceLink/build/generated/appversion.h
  /Users/chenyongnuan/Desktop/百度/deviceLink/src/devicestate.h
  /Users/chenyongnuan/Desktop/百度/deviceLink/src/mainwindow.h
  /Users/chenyongnuan/Desktop/百度/deviceLink/src/protocolparser.h

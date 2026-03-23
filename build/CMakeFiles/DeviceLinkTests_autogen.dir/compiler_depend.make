@@ -901,6 +901,7 @@ DeviceLinkTests_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacO
   CMakeFiles/4.3.0/CMakeCXXCompiler.cmake \
   CMakeFiles/4.3.0/CMakeSystem.cmake \
   DeviceLinkTests_autogen/moc_predefs.h \
+  /Users/chenyongnuan/Desktop/百度/deviceLink/src/appversion.h.in \
   /Users/chenyongnuan/Desktop/百度/deviceLink/src/protocolcodec.h \
   /Users/chenyongnuan/Desktop/百度/deviceLink/src/protocolparser.h \
   /Users/chenyongnuan/Desktop/百度/deviceLink/src/protocoltypes.h \
@@ -1331,6 +1332,7 @@ DeviceLinkTests_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacO
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake \
+  /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/macos/Info.plist.app.in \
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/qt.toolchain.cmake \
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
@@ -2273,6 +2275,8 @@ DeviceLinkTests_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacO
 /Users/chenyongnuan/Desktop/百度/deviceLink/src/protocoltypes.h:
 
 /Users/chenyongnuan/Desktop/百度/deviceLink/src/protocolcodec.h:
+
+/Users/chenyongnuan/Desktop/百度/deviceLink/src/appversion.h.in:
 
 DeviceLinkTests_autogen/moc_predefs.h:
 
@@ -3649,6 +3653,8 @@ CMakeFiles/4.3.0/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/pthread/pthread.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__type_traits/can_extract_key.h:
+
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/macos/Info.plist.app.in:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/rtmintrin.h:
 

@@ -730,6 +730,7 @@ DeviceLinkCore_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOS
   CMakeFiles/4.3.0/CMakeCXXCompiler.cmake \
   CMakeFiles/4.3.0/CMakeSystem.cmake \
   DeviceLinkCore_autogen/moc_predefs.h \
+  /Users/chenyongnuan/Desktop/百度/deviceLink/src/appversion.h.in \
   /Users/chenyongnuan/Desktop/百度/deviceLink/src/devicestate.cpp \
   /Users/chenyongnuan/Desktop/百度/deviceLink/src/devicestate.h \
   /Users/chenyongnuan/Desktop/百度/deviceLink/src/mainwindow.cpp \
@@ -3939,6 +3940,7 @@ CMakeFiles/DeviceLinkCore.dir/src/mainwindow.cpp.o: /Users/chenyongnuan/Desktop/
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
+  generated/appversion.h \
   /Users/chenyongnuan/Desktop/百度/deviceLink/src/devicestate.h \
   /Users/chenyongnuan/Desktop/百度/deviceLink/src/mainwindow.h \
   /Users/chenyongnuan/Desktop/百度/deviceLink/src/protocolcodec.h \
@@ -7105,6 +7107,8 @@ CMakeFiles/DeviceLinkCore.dir/src/serialportmanager.cpp.o: /Users/chenyongnuan/D
 
 /usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Headers/qitemselectionmodel.h:
 
+generated/appversion.h:
+
 /usr/local/Cellar/qtbase/6.10.2/lib/QtWidgets.framework/Headers/QMainWindow:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/QtGui.framework/Headers/qscreen_platform.h:
@@ -7955,6 +7959,8 @@ DeviceLinkCore_autogen/UVLADIE3JM/moc_serialportmanager.cpp:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h:
 
+/usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Versions/A/Headers/qendian.h:
+
 /usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Versions/A/Headers/qtypes.h:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Versions/A/Headers/qdebug.h:
@@ -8040,6 +8046,8 @@ DeviceLinkCore_autogen/UVLADIE3JM/moc_mainwindow.cpp:
 /Users/chenyongnuan/Desktop/百度/deviceLink/src/devicestate.h:
 
 /Users/chenyongnuan/Desktop/百度/deviceLink/src/devicestate.cpp:
+
+/Users/chenyongnuan/Desktop/百度/deviceLink/src/appversion.h.in:
 
 CMakeFiles/4.3.0/CMakeCXXCompiler.cmake:
 
@@ -9870,8 +9878,6 @@ DeviceLinkCore_autogen/UVLADIE3JM/moc_protocolparser.cpp:
 /usr/local/Cellar/qtbase/6.10.2/lib/QtGui.framework/Versions/A/Headers/qevent.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__configuration/language.h:
-
-/usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Versions/A/Headers/qendian.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h:
 

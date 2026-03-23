@@ -4,6 +4,7 @@
 DeviceLink_autogen/timestamp: /Users/chenyongnuan/Desktop/百度/deviceLink/CMakeLists.txt \
   CMakeFiles/4.3.0/CMakeCXXCompiler.cmake \
   CMakeFiles/4.3.0/CMakeSystem.cmake \
+  /Users/chenyongnuan/Desktop/百度/deviceLink/src/appversion.h.in \
   /Users/chenyongnuan/Desktop/百度/deviceLink/src/main.cpp \
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/FindWrapAtomic.cmake \
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/FindWrapOpenGL.cmake \
@@ -51,6 +52,7 @@ DeviceLink_autogen/timestamp: /Users/chenyongnuan/Desktop/百度/deviceLink/CMak
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake \
+  /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/macos/Info.plist.app.in \
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/qt.toolchain.cmake \
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
@@ -306,6 +308,10 @@ DeviceLink_autogen/timestamp: /Users/chenyongnuan/Desktop/百度/deviceLink/CMak
 
 /usr/local/Cellar/qtserialport/6.10.2/lib/cmake/Qt6SerialPort/Qt6SerialPortDependencies.cmake:
 
+/usr/local/Cellar/qtserialport/6.10.2/lib/cmake/Qt6SerialPort/Qt6SerialPortConfigVersionImpl.cmake:
+
+/usr/local/Cellar/qtserialport/6.10.2/lib/cmake/Qt6SerialPort/Qt6SerialPortConfigVersion.cmake:
+
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake:
@@ -426,15 +432,7 @@ DeviceLink_autogen/timestamp: /Users/chenyongnuan/Desktop/百度/deviceLink/CMak
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake:
 
-/usr/local/Cellar/qtserialport/6.10.2/lib/cmake/Qt6SerialPort/Qt6SerialPortConfigVersion.cmake:
-
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Test/QtTestProperties.cmake:
-
-/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Test/Qt6TestConfig.cmake:
-
-/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Test/Qt6TestVersionlessAliasTargets.cmake:
-
-/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Gui/Qt6GuiTargets-release.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake:
 
@@ -467,6 +465,8 @@ DeviceLink_autogen/timestamp: /Users/chenyongnuan/Desktop/百度/deviceLink/CMak
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake:
+
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginDependencies.cmake:
 
@@ -550,14 +550,6 @@ DeviceLink_autogen/timestamp: /Users/chenyongnuan/Desktop/百度/deviceLink/CMak
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginDependencies.cmake:
 
-CMakeFiles/4.3.0/CMakeSystem.cmake:
-
-/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/Qt6ConfigVersion.cmake:
-
-/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginConfig.cmake:
-
-/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
-
 /usr/local/share/cmake/Modules/CMakeLanguageInformation.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-release.cmake:
@@ -586,25 +578,31 @@ CMakeFiles/4.3.0/CMakeSystem.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:
 
+/Users/chenyongnuan/Desktop/百度/deviceLink/src/appversion.h.in:
+
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-release.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginConfig.cmake:
 
+CMakeFiles/4.3.0/CMakeSystem.cmake:
+
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/Qt6ConfigVersion.cmake:
+
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginConfig.cmake:
+
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Test/Qt6TestConfig.cmake:
+
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Test/Qt6TestVersionlessAliasTargets.cmake:
+
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Gui/Qt6GuiTargets-release.cmake:
+
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/macos/Info.plist.app.in:
+
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginDependencies.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicSbomDocumentNamespaceHelpers.cmake:
-
-/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicCMakeEarlyPolicyHelpers.cmake:
-
-/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake:
-
-/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6DBus/Qt6DBusVersionlessAliasTargets.cmake:
-
-/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake:
-
-/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginDependencies.cmake:
 
@@ -617,6 +615,16 @@ CMakeFiles/4.3.0/CMakeSystem.cmake:
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtFeatureCommon.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake:
+
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicCMakeEarlyPolicyHelpers.cmake:
+
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake:
+
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6DBus/Qt6DBusVersionlessAliasTargets.cmake:
+
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake:
+
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicSbomHelpers.cmake:
 
@@ -676,10 +684,6 @@ CMakeFiles/4.3.0/CMakeCXXCompiler.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake:
 
-/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake:
-
-/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicTestHelpers.cmake:
-
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake:
@@ -702,8 +706,6 @@ CMakeFiles/4.3.0/CMakeCXXCompiler.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake:
 
-/usr/local/Cellar/qtserialport/6.10.2/lib/cmake/Qt6SerialPort/Qt6SerialPortConfigVersionImpl.cmake:
-
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake:
@@ -711,6 +713,10 @@ CMakeFiles/4.3.0/CMakeCXXCompiler.cmake:
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicAppleHelpers.cmake:
+
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicTestHelpers.cmake:
+
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginAdditionalTargetInfo.cmake:
 

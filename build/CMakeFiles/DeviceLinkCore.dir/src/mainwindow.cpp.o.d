@@ -1009,6 +1009,7 @@ CMakeFiles/DeviceLinkCore.dir/src/mainwindow.cpp.o: \
   /usr/local/Cellar/qtbase/6.10.2/lib/QtWidgets.framework/Headers/qtabwidget.h \
   /usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Headers/QVector \
   /usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Headers/qvector.h \
+  /Users/chenyongnuan/Desktop/百度/deviceLink/build/generated/appversion.h \
   /Users/chenyongnuan/Desktop/百度/deviceLink/src/protocolcodec.h \
   /usr/local/Cellar/qtbase/6.10.2/lib/QtWidgets.framework/Headers/QCheckBox \
   /usr/local/Cellar/qtbase/6.10.2/lib/QtWidgets.framework/Headers/qcheckbox.h \

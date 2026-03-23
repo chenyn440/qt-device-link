@@ -325,6 +325,7 @@
 		"/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Test/Qt6TestAdditionalTargetInfo.cmake",
 		"/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Test/QtTestProperties.cmake",
 		"/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Test/Qt6TestVersionlessAliasTargets.cmake",
+		"/Users/chenyongnuan/Desktop/\u767e\u5ea6/deviceLink/src/appversion.h.in",
 		"/usr/local/share/cmake/Modules/GNUInstallDirs.cmake",
 		"/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/macos/Info.plist.app.in"
 	],
@@ -357,6 +358,7 @@
 	"MOC_INCLUDES" : 
 	[
 		"/Users/chenyongnuan/Desktop/\u767e\u5ea6/deviceLink/src",
+		"/Users/chenyongnuan/Desktop/\u767e\u5ea6/deviceLink/build/generated",
 		"/usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Headers",
 		"/usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework",
 		"/usr/local/Cellar/qtbase/6.10.2/share/qt/mkspecs/macx-clang",

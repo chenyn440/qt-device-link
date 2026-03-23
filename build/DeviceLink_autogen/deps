@@ -2,6 +2,7 @@ DeviceLink_autogen/timestamp: \
 	/Users/chenyongnuan/Desktop/百度/deviceLink/CMakeLists.txt \
 	/Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/4.3.0/CMakeCXXCompiler.cmake \
 	/Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/4.3.0/CMakeSystem.cmake \
+	/Users/chenyongnuan/Desktop/百度/deviceLink/src/appversion.h.in \
 	/Users/chenyongnuan/Desktop/百度/deviceLink/src/main.cpp \
 	/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/FindWrapAtomic.cmake \
 	/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/FindWrapOpenGL.cmake \

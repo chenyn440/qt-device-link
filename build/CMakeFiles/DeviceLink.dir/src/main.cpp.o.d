@@ -1009,5 +1009,6 @@ CMakeFiles/DeviceLink.dir/src/main.cpp.o: \
   /usr/local/Cellar/qtbase/6.10.2/lib/QtWidgets.framework/Headers/qtabwidget.h \
   /usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Headers/QVector \
   /usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Headers/qvector.h \
+  /Users/chenyongnuan/Desktop/百度/deviceLink/build/generated/appversion.h \
   /usr/local/Cellar/qtbase/6.10.2/lib/QtWidgets.framework/Headers/QApplication \
   /usr/local/Cellar/qtbase/6.10.2/lib/QtWidgets.framework/Headers/qapplication.h

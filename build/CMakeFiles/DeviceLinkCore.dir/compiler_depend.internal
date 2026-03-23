@@ -731,6 +731,7 @@
  /Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/4.3.0/CMakeCXXCompiler.cmake
  /Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/4.3.0/CMakeSystem.cmake
  /Users/chenyongnuan/Desktop/百度/deviceLink/build/DeviceLinkCore_autogen/moc_predefs.h
+ /Users/chenyongnuan/Desktop/百度/deviceLink/src/appversion.h.in
  /Users/chenyongnuan/Desktop/百度/deviceLink/src/devicestate.cpp
  /Users/chenyongnuan/Desktop/百度/deviceLink/src/devicestate.h
  /Users/chenyongnuan/Desktop/百度/deviceLink/src/mainwindow.cpp
@@ -3943,6 +3944,7 @@ CMakeFiles/DeviceLinkCore.dir/src/mainwindow.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h
  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h
+ /Users/chenyongnuan/Desktop/百度/deviceLink/build/generated/appversion.h
  /Users/chenyongnuan/Desktop/百度/deviceLink/src/devicestate.h
  /Users/chenyongnuan/Desktop/百度/deviceLink/src/mainwindow.h
  /Users/chenyongnuan/Desktop/百度/deviceLink/src/protocolcodec.h

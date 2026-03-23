@@ -11,6 +11,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   ".qt/info_plist/DeviceLink/Info.plist"
   "CMakeFiles/4.3.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.3.0/CMakeSystem.cmake"
+  "/Users/chenyongnuan/Desktop/百度/deviceLink/src/appversion.h.in"
   "/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/FindWrapAtomic.cmake"
   "/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/FindWrapOpenGL.cmake"
   "/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake"
@@ -258,6 +259,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "generated/appversion.h"
   ".qt/info_plist/DeviceLink/Info.plist"
   "CMakeFiles/DeviceLinkCore_autogen.dir/AutogenInfo.json"
   "CMakeFiles/DeviceLink_autogen.dir/AutogenInfo.json"

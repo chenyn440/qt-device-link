@@ -127,9 +127,9 @@ CMakeFiles/DeviceLinkCore.dir/clean:
 # Target rules for target CMakeFiles/DeviceLink.dir
 
 # All Build rule for target.
+CMakeFiles/DeviceLink.dir/all: CMakeFiles/DeviceLinkCore.dir/all
 CMakeFiles/DeviceLink.dir/all: CMakeFiles/DeviceLink_autogen.dir/all
 CMakeFiles/DeviceLink.dir/all: CMakeFiles/DeviceLink_autogen_timestamp_deps.dir/all
-CMakeFiles/DeviceLink.dir/all: CMakeFiles/DeviceLinkCore.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeviceLink.dir/build.make CMakeFiles/DeviceLink.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeviceLink.dir/build.make CMakeFiles/DeviceLink.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles --progress-num=1,2,3,4 "Built target DeviceLink"
@@ -161,9 +161,9 @@ CMakeFiles/DeviceLink.dir/clean:
 # Target rules for target CMakeFiles/DeviceLinkTests.dir
 
 # All Build rule for target.
+CMakeFiles/DeviceLinkTests.dir/all: CMakeFiles/DeviceLinkCore.dir/all
 CMakeFiles/DeviceLinkTests.dir/all: CMakeFiles/DeviceLinkTests_autogen_timestamp_deps.dir/all
 CMakeFiles/DeviceLinkTests.dir/all: CMakeFiles/DeviceLinkTests_autogen.dir/all
-CMakeFiles/DeviceLinkTests.dir/all: CMakeFiles/DeviceLinkCore.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeviceLinkTests.dir/build.make CMakeFiles/DeviceLinkTests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeviceLinkTests.dir/build.make CMakeFiles/DeviceLinkTests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles --progress-num=16,17,18,19 "Built target DeviceLinkTests"

@@ -4,6 +4,7 @@
 DeviceLink_autogen/timestamp: /Users/chenyongnuan/Desktop/百度/deviceLink/CMakeLists.txt \
   CMakeFiles/4.3.0/CMakeCXXCompiler.cmake \
   CMakeFiles/4.3.0/CMakeSystem.cmake \
+  /Users/chenyongnuan/Desktop/百度/deviceLink/src/appversion.h.in \
   /Users/chenyongnuan/Desktop/百度/deviceLink/src/main.cpp \
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/FindWrapAtomic.cmake \
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/FindWrapOpenGL.cmake \
@@ -1053,6 +1054,7 @@ CMakeFiles/DeviceLink.dir/src/main.cpp.o: /Users/chenyongnuan/Desktop/百度/dev
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
+  generated/appversion.h \
   /Users/chenyongnuan/Desktop/百度/deviceLink/src/devicestate.h \
   /Users/chenyongnuan/Desktop/百度/deviceLink/src/mainwindow.h \
   /Users/chenyongnuan/Desktop/百度/deviceLink/src/protocolparser.h \
@@ -1452,6 +1454,8 @@ CMakeFiles/DeviceLink.dir/src/main.cpp.o: /Users/chenyongnuan/Desktop/百度/dev
 
 /Users/chenyongnuan/Desktop/百度/deviceLink/src/devicestate.h:
 
+generated/appversion.h:
+
 /usr/local/Cellar/qtbase/6.10.2/lib/QtGui.framework/Headers/qtguiexports.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h:
@@ -1797,10 +1801,6 @@ CMakeFiles/DeviceLink.dir/src/main.cpp.o: /Users/chenyongnuan/Desktop/百度/dev
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__utility/empty.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__utility/declval.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__concepts/boolean_testable.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__utility/convert_to_integral.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__utility/as_const.h:
 
@@ -2494,6 +2494,10 @@ DeviceLink_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__concepts/common_reference_with.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__utility/convert_to_integral.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__concepts/boolean_testable.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__debug_utils/randomize_range.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__concepts/assignable.h:
@@ -3132,6 +3136,28 @@ DeviceLink_autogen/mocs_compilation.cpp:
 
 /usr/local/Cellar/qtserialport/6.10.2/lib/cmake/Qt6SerialPort/Qt6SerialPortConfigVersionImpl.cmake:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__memory/allocate_at_least.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__tuple/sfinae_helpers.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__atomic/support/c11.h:
+
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Test/Qt6TestVersionlessAliasTargets.cmake:
+
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginDependencies.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/errno.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__algorithm/merge.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__type_traits/unwrap_ref.h:
+
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake:
+
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake:
+
+/usr/local/Cellar/qtserialport/6.10.2/lib/cmake/Qt6SerialPort/Qt6SerialPortConfigVersion.cmake:
+
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginConfig.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__type_traits/is_unbounded_array.h:
@@ -3169,14 +3195,6 @@ DeviceLink_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__fwd/memory_resource.h:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake:
-
-/usr/local/Cellar/qtserialport/6.10.2/lib/cmake/Qt6SerialPort/Qt6SerialPortConfigVersion.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__type_traits/unwrap_ref.h:
-
-/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake:
-
-/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake:
 
@@ -3365,20 +3383,6 @@ CMakeFiles/4.3.0/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__algorithm/iterator_operations.h:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-release.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__memory/allocate_at_least.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__tuple/sfinae_helpers.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__atomic/support/c11.h:
-
-/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Test/Qt6TestVersionlessAliasTargets.cmake:
-
-/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginDependencies.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/errno.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__algorithm/merge.h:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Test/QtTestProperties.cmake:
 
@@ -3612,6 +3616,8 @@ CMakeFiles/4.3.0/CMakeSystem.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:
 
+/Users/chenyongnuan/Desktop/百度/deviceLink/src/appversion.h.in:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/sys/signal.h:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-release.cmake:
@@ -3632,6 +3638,14 @@ CMakeFiles/4.3.0/CMakeSystem.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginDependencies.cmake:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__algorithm/generate.h:
+
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/_locale_posix2008.h:
+
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__concepts/semiregular.h:
@@ -3640,17 +3654,9 @@ CMakeFiles/4.3.0/CMakeSystem.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6DBus/Qt6DBusVersionlessAliasTargets.cmake:
 
-/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake:
-
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__algorithm/generate.h:
-
-/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/_locale_posix2008.h:
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__chrono/time_point.h:
 
@@ -3718,10 +3724,6 @@ CMakeFiles/4.3.0/CMakeCXXCompiler.cmake:
 
 /usr/local/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:
 
-/usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Headers/qanystringview.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__ranges/data.h:
-
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_nullptr_t.h:
@@ -3747,6 +3749,10 @@ CMakeFiles/4.3.0/CMakeCXXCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__algorithm/reverse_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__bit/rotate.h:
+
+/usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Headers/qanystringview.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__ranges/data.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__mutex/once_flag.h:
 

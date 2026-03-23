@@ -901,6 +901,7 @@ DeviceLinkTests_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacO
   CMakeFiles/4.3.0/CMakeCXXCompiler.cmake \
   CMakeFiles/4.3.0/CMakeSystem.cmake \
   DeviceLinkTests_autogen/moc_predefs.h \
+  /Users/chenyongnuan/Desktop/百度/deviceLink/src/appversion.h.in \
   /Users/chenyongnuan/Desktop/百度/deviceLink/src/protocolcodec.h \
   /Users/chenyongnuan/Desktop/百度/deviceLink/src/protocolparser.h \
   /Users/chenyongnuan/Desktop/百度/deviceLink/src/protocoltypes.h \
@@ -4599,6 +4600,8 @@ DeviceLinkTests_autogen/include/test_protocol.moc:
 /usr/local/Cellar/qtbase/6.10.2/lib/QtGui.framework/Headers/qrgba64.h:
 
 /Users/chenyongnuan/Desktop/百度/deviceLink/src/protocolcodec.h:
+
+/Users/chenyongnuan/Desktop/百度/deviceLink/src/appversion.h.in:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/sys/_pthread/_pthread_attr_t.h:
 
