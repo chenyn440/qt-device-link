@@ -1,0 +1,4 @@
+/Users/chenyongnuan/Desktop/百度/deviceLink/build/DeviceLinkCore_autogen/include/../UVLADIE3JM/moc_devicestate.cpp.json
+/Users/chenyongnuan/Desktop/百度/deviceLink/build/DeviceLinkCore_autogen/include/../UVLADIE3JM/moc_mainwindow.cpp.json
+/Users/chenyongnuan/Desktop/百度/deviceLink/build/DeviceLinkCore_autogen/include/../UVLADIE3JM/moc_protocolparser.cpp.json
+/Users/chenyongnuan/Desktop/百度/deviceLink/build/DeviceLinkCore_autogen/include/../UVLADIE3JM/moc_serialportmanager.cpp.json

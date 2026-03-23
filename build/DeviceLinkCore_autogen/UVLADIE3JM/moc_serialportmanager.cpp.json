@@ -1,0 +1,72 @@
+{
+    "classes": [
+        {
+            "className": "SerialPortManager",
+            "lineNumber": 12,
+            "object": true,
+            "qualifiedClassName": "SerialPortManager",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "bytes",
+                            "type": "QByteArray"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 26,
+                    "name": "rawBytesReceived",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "frame",
+                            "type": "ParsedFrame"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 27,
+                    "name": "frameReceived",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 28,
+                    "name": "logMessage",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 29,
+                    "name": "portError",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "serialportmanager.h",
+    "outputRevision": 69
+}

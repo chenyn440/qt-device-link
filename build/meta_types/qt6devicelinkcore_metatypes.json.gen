@@ -1,0 +1,175 @@
+[
+    {
+        "classes": [
+            {
+                "className": "DeviceStateStore",
+                "lineNumber": 7,
+                "object": true,
+                "qualifiedClassName": "DeviceStateStore",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "state",
+                                "type": "DeviceState"
+                            }
+                        ],
+                        "index": 0,
+                        "lineNumber": 19,
+                        "name": "stateChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "devicestate.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "MainWindow",
+                "lineNumber": 25,
+                "object": true,
+                "qualifiedClassName": "MainWindow",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QMainWindow"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "mainwindow.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "ProtocolParser",
+                "lineNumber": 7,
+                "object": true,
+                "qualifiedClassName": "ProtocolParser",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "frame",
+                                "type": "ParsedFrame"
+                            }
+                        ],
+                        "index": 0,
+                        "lineNumber": 18,
+                        "name": "frameParsed",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "rawFrame",
+                                "type": "QByteArray"
+                            }
+                        ],
+                        "index": 1,
+                        "lineNumber": 19,
+                        "name": "parseError",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "protocolparser.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "SerialPortManager",
+                "lineNumber": 12,
+                "object": true,
+                "qualifiedClassName": "SerialPortManager",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "bytes",
+                                "type": "QByteArray"
+                            }
+                        ],
+                        "index": 0,
+                        "lineNumber": 26,
+                        "name": "rawBytesReceived",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "frame",
+                                "type": "ParsedFrame"
+                            }
+                        ],
+                        "index": 1,
+                        "lineNumber": 27,
+                        "name": "frameReceived",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 28,
+                        "name": "logMessage",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 3,
+                        "lineNumber": 29,
+                        "name": "portError",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "serialportmanager.h",
+        "outputRevision": 69
+    }
+]

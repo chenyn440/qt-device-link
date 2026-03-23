@@ -1,0 +1,50 @@
+{
+    "classes": [
+        {
+            "className": "ProtocolParser",
+            "lineNumber": 7,
+            "object": true,
+            "qualifiedClassName": "ProtocolParser",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "frame",
+                            "type": "ParsedFrame"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 18,
+                    "name": "frameParsed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "rawFrame",
+                            "type": "QByteArray"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 19,
+                    "name": "parseError",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "protocolparser.h",
+    "outputRevision": 69
+}

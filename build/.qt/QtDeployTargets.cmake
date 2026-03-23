@@ -1,0 +1,6 @@
+set(__QT_DEPLOY_TARGET_DeviceLinkCore_FILE /Users/chenyongnuan/Desktop/百度/deviceLink/build/libDeviceLinkCore.a)
+set(__QT_DEPLOY_TARGET_DeviceLinkCore_TYPE STATIC_LIBRARY)
+set(__QT_DEPLOY_TARGET_DeviceLink_FILE /Users/chenyongnuan/Desktop/百度/deviceLink/build/DeviceLink)
+set(__QT_DEPLOY_TARGET_DeviceLink_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_DeviceLinkTests_FILE /Users/chenyongnuan/Desktop/百度/deviceLink/build/DeviceLinkTests)
+set(__QT_DEPLOY_TARGET_DeviceLinkTests_TYPE EXECUTABLE)

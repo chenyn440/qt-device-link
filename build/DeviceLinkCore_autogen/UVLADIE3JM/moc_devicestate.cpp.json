@@ -1,0 +1,33 @@
+{
+    "classes": [
+        {
+            "className": "DeviceStateStore",
+            "lineNumber": 7,
+            "object": true,
+            "qualifiedClassName": "DeviceStateStore",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "state",
+                            "type": "DeviceState"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 19,
+                    "name": "stateChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "devicestate.h",
+    "outputRevision": 69
+}

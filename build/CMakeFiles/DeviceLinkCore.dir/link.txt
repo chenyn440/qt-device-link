@@ -1,0 +1,2 @@
+/usr/bin/ar qc libDeviceLinkCore.a CMakeFiles/DeviceLinkCore.dir/DeviceLinkCore_autogen/mocs_compilation.cpp.o CMakeFiles/DeviceLinkCore.dir/src/mainwindow.cpp.o CMakeFiles/DeviceLinkCore.dir/src/serialportmanager.cpp.o CMakeFiles/DeviceLinkCore.dir/src/protocolparser.cpp.o CMakeFiles/DeviceLinkCore.dir/src/protocolcodec.cpp.o CMakeFiles/DeviceLinkCore.dir/src/devicestate.cpp.o
+/usr/bin/ranlib libDeviceLinkCore.a

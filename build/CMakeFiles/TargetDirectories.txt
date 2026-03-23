@@ -1,0 +1,12 @@
+/Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/DeviceLinkCore.dir
+/Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/DeviceLink.dir
+/Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/DeviceLinkTests.dir
+/Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/test.dir
+/Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/edit_cache.dir
+/Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/rebuild_cache.dir
+/Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/DeviceLinkCore_autogen_timestamp_deps.dir
+/Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/DeviceLinkCore_autogen.dir
+/Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/DeviceLink_autogen_timestamp_deps.dir
+/Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/DeviceLink_autogen.dir
+/Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/DeviceLinkTests_autogen_timestamp_deps.dir
+/Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/DeviceLinkTests_autogen.dir

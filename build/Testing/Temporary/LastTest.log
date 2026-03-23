@@ -1,0 +1,39 @@
+Start testing: Mar 23 13:51 CST
+----------------------------------------------------------
+1/1 Testing: DeviceLinkTests
+1/1 Test: DeviceLinkTests
+Command: "/Users/chenyongnuan/Desktop/百度/deviceLink/build/DeviceLinkTests"
+Directory: /Users/chenyongnuan/Desktop/百度/deviceLink/build
+"DeviceLinkTests" start time: Mar 23 13:51 CST
+Output:
+----------------------------------------------------------
+PasteBoard: Error creating pasteboard: com.apple.pasteboard.clipboard [-4960]
+PasteBoard: Error creating pasteboard: com.apple.pasteboard.find [-4960]
+2026-03-23 13:51:32.290 DeviceLinkTests[77317:4900214] Error received in message reply handler: Connection invalid
+2026-03-23 13:51:32.290 DeviceLinkTests[77317:4900292] Connection Invalid error for service com.apple.hiservices-xpcservice.
+2026-03-23 13:51:32.639 DeviceLinkTests[77317:4900214] Failure on line 687 in function id scheduleApplicationNotification(LSNotificationCode, NSWorkspaceNotificationCenter *): noErr == _LSModifyNotification(notificationID, 1, &code, 0, NULL, NULL, NULL)
+no screens available, assuming 24-bit color
+********* Start testing of ProtocolTests *********
+Config: Using QtTest library 6.10.2, Qt 6.10.2 (x86_64-little_endian-lp64 shared (dynamic) release build; by Apple LLVM 16.0.0 (clang-1600.0.26.6)), macos 15.7.4
+PASS   : ProtocolTests::initTestCase()
+PASS   : ProtocolTests::buildFrames(set heating on)
+PASS   : ProtocolTests::buildFrames(read actual temperatures)
+PASS   : ProtocolTests::buildFrames(set shutdown 60s)
+PASS   : ProtocolTests::buildFrames(enable shutdown)
+PASS   : ProtocolTests::buildFrames(set temperatures)
+PASS   : ProtocolTests::decodeDeviceStateFromKnownSample()
+PASS   : ProtocolTests::parserHandlesHalfPacket()
+PASS   : ProtocolTests::parserHandlesStickyPackets()
+PASS   : ProtocolTests::parserRejectsBadChecksum()
+PASS   : ProtocolTests::cleanupTestCase()
+Totals: 11 passed, 0 failed, 0 skipped, 0 blacklisted, 4ms
+********* Finished testing of ProtocolTests *********
+<end of output>
+Test time =   2.53 sec
+----------------------------------------------------------
+Test Passed.
+"DeviceLinkTests" end time: Mar 23 13:51 CST
+"DeviceLinkTests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+End testing: Mar 23 13:51 CST
