@@ -48,7 +48,7 @@ cmake --build build
 macOS:
 
 ```bash
-bash scripts/package-macos.sh
+bash scripts/release-local.sh macos
 ```
 
 Windows:
@@ -69,6 +69,7 @@ Windows:
 
 - `.github/workflows/ci.yml`
 - `.github/workflows/release.yml`
+- `RELEASE.md`
 
 工作流行为：
 
@@ -91,6 +92,8 @@ git push origin v1.0.0
 并作为 Release Assets 上传到对应 GitHub Release。
 
 应用窗口标题、macOS Bundle 版本和打包文件名都统一跟随 `CMake project version` 与发布 tag。
+
+本地 / 线上打包对应关系和完整发布步骤见 [RELEASE.md](/Users/chenyongnuan/Desktop/百度/deviceLink/RELEASE.md)。
 
 ### 可选签名 / 公证
 
