@@ -88,6 +88,8 @@ git push origin v1.0.0
 
 并作为 Release Assets 上传到对应 GitHub Release。
 
+应用窗口标题、macOS Bundle 版本和打包文件名都统一跟随 `CMake project version` 与发布 tag。
+
 ### 当前限制
 
 - 初版未接入代码签名和公证

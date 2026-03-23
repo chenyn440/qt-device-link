@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 
+#include "appversion.h"
 #include "protocolcodec.h"
 
 #include <QCheckBox>
@@ -86,7 +87,8 @@ void MainWindow::closeEvent(QCloseEvent *event)
 
 void MainWindow::setupUi()
 {
-    setWindowTitle(QStringLiteral("DeviceLink"));
+    setWindowTitle(QStringLiteral("%1 v%2").arg(QStringLiteral(DEVICE_LINK_APP_NAME),
+                                                QStringLiteral(DEVICE_LINK_APP_VERSION)));
     resize(960, 760);
 
     auto *central = new QWidget(this);

@@ -75,4 +75,12 @@ jobs:
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
+          name: DeviceLink ${{ github.ref_name }}
+          body: |
+            自动发布产物：
+
+            - macOS `.dmg`
+            - Windows `.zip`
+
+            版本来源：`${{ github.ref_name }}`
           files: release-assets/*

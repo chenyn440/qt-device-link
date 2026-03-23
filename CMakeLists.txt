@@ -12,6 +12,12 @@ set(CMAKE_AUTORCC ON)
 
 find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets SerialPort Test)
 
+configure_file(
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/appversion.h.in
+    ${CMAKE_CURRENT_BINARY_DIR}/generated/appversion.h
+    @ONLY
+)
+
 set(DEVICE_LINK_CORE_SOURCES
     src/mainwindow.cpp
     src/mainwindow.h
@@ -30,6 +36,9 @@ qt_add_library(DeviceLinkCore STATIC
 )
 
 target_include_directories(DeviceLinkCore PUBLIC src)
+target_include_directories(DeviceLinkCore PUBLIC
+    ${CMAKE_CURRENT_BINARY_DIR}/generated
+)
 
 target_link_libraries(DeviceLinkCore PUBLIC
     Qt6::Core

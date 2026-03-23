@@ -1,0 +1,4 @@
+#pragma once
+
+#define DEVICE_LINK_APP_NAME "@PROJECT_NAME@"
+#define DEVICE_LINK_APP_VERSION "@PROJECT_VERSION@"
