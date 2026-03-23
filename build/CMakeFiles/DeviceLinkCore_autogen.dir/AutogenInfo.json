@@ -324,7 +324,9 @@
 		"/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Test/Qt6TestTargets-release.cmake",
 		"/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Test/Qt6TestAdditionalTargetInfo.cmake",
 		"/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Test/QtTestProperties.cmake",
-		"/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Test/Qt6TestVersionlessAliasTargets.cmake"
+		"/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Test/Qt6TestVersionlessAliasTargets.cmake",
+		"/usr/local/share/cmake/Modules/GNUInstallDirs.cmake",
+		"/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/macos/Info.plist.app.in"
 	],
 	"CMAKE_SOURCE_DIR" : "/Users/chenyongnuan/Desktop/\u767e\u5ea6/deviceLink",
 	"CROSS_CONFIG" : false,

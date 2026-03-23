@@ -51,6 +51,7 @@ DeviceLink_autogen/timestamp: /Users/chenyongnuan/Desktop/百度/deviceLink/CMak
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake \
+  /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/macos/Info.plist.app.in \
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/qt.toolchain.cmake \
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
   /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
@@ -1795,6 +1796,8 @@ CMakeFiles/DeviceLink.dir/src/main.cpp.o: /Users/chenyongnuan/Desktop/百度/dev
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__utility/empty.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__utility/declval.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__concepts/boolean_testable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__utility/convert_to_integral.h:
@@ -2115,9 +2118,9 @@ CMakeFiles/DeviceLink.dir/src/main.cpp.o: /Users/chenyongnuan/Desktop/百度/dev
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__new/allocate.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__assert:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__algorithm/is_sorted.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__assert:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__mutex/tag_types.h:
 
@@ -2186,12 +2189,6 @@ DeviceLink_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__type_traits/is_final.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__math/modulo.h:
-
-/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__math/inverse_hyperbolic_functions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/_types/_locale_t.h:
 
@@ -2400,6 +2397,8 @@ DeviceLink_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__debug_utils/sanitizers.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__type_traits/can_extract_key.h:
+
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/macos/Info.plist.app.in:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__type_traits/alignment_of.h:
 
@@ -2715,8 +2714,6 @@ DeviceLink_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__algorithm/iter_swap.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__algorithm/is_permutation.h:
-
 /usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Headers/qtcoreglobal.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/_ctermid.h:
@@ -2796,12 +2793,6 @@ DeviceLink_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__new/align_val_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__algorithm/clamp.h:
-
-/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicSbomGenerationCycloneDXHelpers.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__atomic/check_memory_order.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_null.h:
 
@@ -3035,6 +3026,12 @@ DeviceLink_autogen/mocs_compilation.cpp:
 
 /usr/local/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__atomic/check_memory_order.h:
+
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicSbomGenerationCycloneDXHelpers.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__type_traits/is_pod.h:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:
@@ -3111,9 +3108,9 @@ DeviceLink_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__math/exponential_functions.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__algorithm/min_element.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__algorithm/remove_copy_if.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__algorithm/min_element.h:
 
 /usr/local/bin/cmake:
 
@@ -3124,6 +3121,16 @@ DeviceLink_autogen/mocs_compilation.cpp:
 /usr/local/Cellar/qtbase/6.10.2/lib/QtWidgets.framework/Headers/qapplication.h:
 
 /usr/local/Cellar/qtserialport/6.10.2/lib/cmake/Qt6SerialPort/Qt6SerialPortVersionlessAliasTargets.cmake:
+
+/usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Headers/qprocessordetection.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/sys/appleapiopts.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__algorithm/make_heap.h:
+
+/usr/local/Cellar/qtserialport/6.10.2/lib/cmake/Qt6SerialPort/Qt6SerialPortConfigVersionImpl.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginConfig.cmake:
 
@@ -3222,8 +3229,6 @@ DeviceLink_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/nl_types.h:
 
 /usr/local/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__utility/declval.h:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake:
 
@@ -3377,18 +3382,6 @@ CMakeFiles/4.3.0/CMakeSystem.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Test/QtTestProperties.cmake:
 
-/usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Headers/qbytearray.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/AvailabilityInternalLegacy.h:
-
-/usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Headers/qcompare_impl.h:
-
-/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Test/Qt6TestConfig.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__math/traits.h:
-
-/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Gui/Qt6GuiTargets-release.cmake:
-
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake:
@@ -3435,6 +3428,10 @@ CMakeFiles/4.3.0/CMakeSystem.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake:
 
+/usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Headers/q20type_traits.h:
+
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginDependencies.cmake:
+
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__string/constexpr_c_functions.h:
@@ -3479,15 +3476,13 @@ CMakeFiles/4.3.0/CMakeSystem.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake:
 
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Gui/Qt6GuiTargets-release.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__math/traits.h:
+
 /usr/local/Cellar/qtbase/6.10.2/lib/QtGui.framework/Headers/qfontmetrics.h:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/sys/appleapiopts.h:
-
-/usr/local/Cellar/qtserialport/6.10.2/lib/cmake/Qt6SerialPort/Qt6SerialPortConfigVersionImpl.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__algorithm/make_heap.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/system_error:
 
@@ -3516,6 +3511,12 @@ CMakeFiles/4.3.0/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__algorithm/swap_ranges.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__type_traits/is_nothrow_destructible.h:
+
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__math/inverse_hyperbolic_functions.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake:
 
@@ -3553,10 +3554,6 @@ CMakeFiles/4.3.0/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/AvailabilityMacros.h:
 
-/usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Headers/qprocessordetection.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h:
-
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__type_traits/type_list.h:
@@ -3567,15 +3564,13 @@ CMakeFiles/4.3.0/CMakeSystem.cmake:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/sys/_types/_seek_set.h:
+/usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Headers/qcompare_impl.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/sys/_types/_blksize_t.h:
+/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Test/Qt6TestConfig.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__math/hyperbolic_functions.h:
+/usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Headers/qbytearray.h:
 
-/usr/local/Cellar/qtbase/6.10.2/lib/QtCore.framework/Headers/q20type_traits.h:
-
-/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginDependencies.cmake:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/AvailabilityInternalLegacy.h:
 
 /usr/local/share/cmake/Modules/CMakeLanguageInformation.cmake:
 
@@ -3626,6 +3621,14 @@ CMakeFiles/4.3.0/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__type_traits/is_volatile.h:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/sys/_types/_seek_set.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/sys/_types/_blksize_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__math/hyperbolic_functions.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__algorithm/is_permutation.h:
 
 /usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginDependencies.cmake:
 

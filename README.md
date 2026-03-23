@@ -39,6 +39,61 @@ cmake --build build
 
 如果你的 Qt 安装路径已经在 CMake 可发现范围内，可以省略 `CMAKE_PREFIX_PATH`。
 
+## 正式打包
+
+项目已补齐本地打包脚本和 GitHub 自动发布工作流。
+
+### 本地打包
+
+macOS:
+
+```bash
+bash scripts/package-macos.sh
+```
+
+Windows:
+
+```powershell
+./scripts/package-windows.ps1
+```
+
+产物统一输出到 `dist/`：
+
+- macOS: `DeviceLink-macOS-<version>.dmg`
+- Windows: `DeviceLink-windows-<version>.zip`
+
+### GitHub 自动发布
+
+仓库内已提供：
+
+- `.github/workflows/ci.yml`
+- `.github/workflows/release.yml`
+
+工作流行为：
+
+- 普通 `push` / `pull_request`：只做编译和测试
+- 推送版本 tag：自动打正式包并创建 GitHub Release
+
+版本 tag 规范：
+
+```bash
+git tag v1.0.0
+git push origin v1.0.0
+```
+
+推送后会自动生成：
+
+- macOS `.dmg`
+- Windows `.zip`
+
+并作为 Release Assets 上传到对应 GitHub Release。
+
+### 当前限制
+
+- 初版未接入代码签名和公证
+- Windows 初版为绿色包 zip，不含安装器
+- 如果后续需要 `.pkg`、`.exe` 安装器或自动更新，可在这套链路上继续扩展
+
 ## 测试
 
 工程内置了协议测试目标 `DeviceLinkTests`，覆盖：

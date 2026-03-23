@@ -37,6 +37,18 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/Users/chenyongnuan/Desktop/百度/deviceLink/build/DeviceLink.app" USE_SOURCE_PERMISSIONS)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./DeviceLink.app/Contents/MacOS/DeviceLink" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./DeviceLink.app/Contents/MacOS/DeviceLink")
+    execute_process(COMMAND /usr/bin/install_name_tool
+      -delete_rpath "/usr/local/Cellar/qtbase/6.10.2/lib"
+      -delete_rpath "/usr/local/Cellar/qtserialport/6.10.2/lib"
+      -add_rpath "@executable_path/../Frameworks"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./DeviceLink.app/Contents/MacOS/DeviceLink")
+  endif()
+endif()
+
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)

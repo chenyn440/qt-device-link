@@ -127,8 +127,8 @@ CMakeFiles/DeviceLinkCore.dir/clean:
 # Target rules for target CMakeFiles/DeviceLink.dir
 
 # All Build rule for target.
-CMakeFiles/DeviceLink.dir/all: CMakeFiles/DeviceLink_autogen_timestamp_deps.dir/all
 CMakeFiles/DeviceLink.dir/all: CMakeFiles/DeviceLink_autogen.dir/all
+CMakeFiles/DeviceLink.dir/all: CMakeFiles/DeviceLink_autogen_timestamp_deps.dir/all
 CMakeFiles/DeviceLink.dir/all: CMakeFiles/DeviceLinkCore.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeviceLink.dir/build.make CMakeFiles/DeviceLink.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeviceLink.dir/build.make CMakeFiles/DeviceLink.dir/build

@@ -6,7 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/DeviceLink.dir/DeviceLink_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/DeviceLink.dir/src/main.cpp.o"
   "CMakeFiles/DeviceLink.dir/src/main.cpp.o.d"
-  "DeviceLink"
+  "DeviceLink.app/Contents/MacOS/DeviceLink"
   "DeviceLink.pdb"
   "DeviceLink_autogen/mocs_compilation.cpp"
   "DeviceLink_autogen/timestamp"

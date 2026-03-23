@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "/Users/chenyongnuan/Desktop/百度/deviceLink/CMakeLists.txt"
+  ".qt/info_plist/DeviceLink/Info.plist"
   "CMakeFiles/4.3.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.3.0/CMakeSystem.cmake"
   "/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/FindWrapAtomic.cmake"
@@ -56,6 +57,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicToolHelpers.cmake"
   "/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake"
   "/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake"
+  "/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/macos/Info.plist.app.in"
   "/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6/qt.toolchain.cmake"
   "/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake"
   "/usr/local/Cellar/qtbase/6.10.2/lib/cmake/Qt6Core/Qt6CoreConfig.cmake"
@@ -256,11 +258,15 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  ".qt/info_plist/DeviceLink/Info.plist"
   "CMakeFiles/DeviceLinkCore_autogen.dir/AutogenInfo.json"
   "CMakeFiles/DeviceLink_autogen.dir/AutogenInfo.json"
   "CMakeFiles/DeviceLinkTests_autogen.dir/AutogenInfo.json"
   ".qt/QtDeploySupport.cmake"
   ".qt/QtDeployTargets.cmake"
+  "DeviceLink.app/Contents/MacOS"
+  "DeviceLink.app/Contents/Info.plist"
+  "DeviceLink.app/Contents/Info.plist"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

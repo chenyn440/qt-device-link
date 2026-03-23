@@ -4,6 +4,10 @@
 /Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/test.dir
 /Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/edit_cache.dir
 /Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/rebuild_cache.dir
+/Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/list_install_components.dir
+/Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/install.dir
+/Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/install/local.dir
+/Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/install/strip.dir
 /Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/DeviceLinkCore_autogen_timestamp_deps.dir
 /Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/DeviceLinkCore_autogen.dir
 /Users/chenyongnuan/Desktop/百度/deviceLink/build/CMakeFiles/DeviceLink_autogen_timestamp_deps.dir

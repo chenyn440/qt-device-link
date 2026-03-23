@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(DeviceLink VERSION 0.1 LANGUAGES CXX)
+project(DeviceLink VERSION 0.1.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -42,6 +42,15 @@ qt_add_executable(DeviceLink
     src/main.cpp
 )
 
+set_target_properties(DeviceLink PROPERTIES
+    MACOSX_BUNDLE TRUE
+    WIN32_EXECUTABLE TRUE
+    MACOSX_BUNDLE_BUNDLE_NAME "DeviceLink"
+    MACOSX_BUNDLE_GUI_IDENTIFIER "com.devicelink.app"
+    MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
+    MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION}
+)
+
 target_link_libraries(DeviceLink PRIVATE
     DeviceLinkCore
 )
@@ -56,3 +65,10 @@ target_link_libraries(DeviceLinkTests PRIVATE
 )
 
 add_test(NAME DeviceLinkTests COMMAND DeviceLinkTests)
+
+include(GNUInstallDirs)
+
+install(TARGETS DeviceLink
+    BUNDLE DESTINATION .
+    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+)
