@@ -123,5 +123,8 @@ if ($Iscc) {
     catch {
         Write-Warning "Windows installer packaging failed: $($_.Exception.Message)"
         Write-Warning "zip package was created successfully and release will continue."
+        $global:LASTEXITCODE = 0
     }
 }
+
+exit 0
