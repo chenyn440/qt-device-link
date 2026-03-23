@@ -10,7 +10,7 @@ fi
 
 case "$1" in
     macos)
-        exec "${ROOT_DIR}/scripts/package-macos.sh"
+        exec bash "${ROOT_DIR}/scripts/package-macos.sh"
         ;;
     windows)
         if [[ "${OS:-}" == "Windows_NT" ]]; then

@@ -5,10 +5,31 @@ ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 BUILD_DIR="${ROOT_DIR}/build-release-macos"
 DIST_DIR="${ROOT_DIR}/dist"
 APP_NAME="DeviceLink"
-VERSION="$("${ROOT_DIR}/scripts/version.sh")"
+VERSION="$(bash "${ROOT_DIR}/scripts/version.sh")"
 DMG_NAME="${APP_NAME}-macOS-${VERSION}.dmg"
 APPLE_SIGN_IDENTITY="${APPLE_SIGN_IDENTITY:-}"
 APPLE_NOTARY_PROFILE="${APPLE_NOTARY_PROFILE:-}"
+
+find_qt_tool() {
+    local tool_name="$1"
+
+    if command -v "${tool_name}" >/dev/null 2>&1; then
+        command -v "${tool_name}"
+        return 0
+    fi
+
+    if [[ -n "${Qt6_DIR:-}" ]]; then
+        local qt6_bin
+        qt6_bin="$(cd "${Qt6_DIR}/../../bin" 2>/dev/null && pwd || true)"
+        if [[ -n "${qt6_bin}" && -x "${qt6_bin}/${tool_name}" ]]; then
+            echo "${qt6_bin}/${tool_name}"
+            return 0
+        fi
+    fi
+
+    echo "missing Qt tool: ${tool_name}" >&2
+    exit 1
+}
 
 rm -rf "${BUILD_DIR}"
 mkdir -p "${DIST_DIR}"
@@ -23,13 +44,15 @@ if [[ ! -d "${APP_PATH}" ]]; then
     exit 1
 fi
 
-macdeployqt "${APP_PATH}" -verbose=1
+MACDEPLOYQT="$(find_qt_tool macdeployqt)"
+
+"${MACDEPLOYQT}" "${APP_PATH}" -verbose=1
 
 if [[ -n "${APPLE_SIGN_IDENTITY}" ]]; then
     codesign --force --deep --options runtime --sign "${APPLE_SIGN_IDENTITY}" "${APP_PATH}"
 fi
 
-macdeployqt "${APP_PATH}" -dmg -verbose=1
+"${MACDEPLOYQT}" "${APP_PATH}" -dmg -verbose=1
 
 GENERATED_DMG="${BUILD_DIR}/${APP_NAME}.dmg"
 if [[ ! -f "${GENERATED_DMG}" ]]; then

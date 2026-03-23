@@ -3,11 +3,64 @@ $ErrorActionPreference = "Stop"
 $RootDir = Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path)
 $BuildDir = Join-Path $RootDir "build-release-windows"
 $DistDir = Join-Path $RootDir "dist"
-$Version = bash (Join-Path $RootDir "scripts/version.sh")
 $AppName = "DeviceLink"
+$InstallerScript = Join-Path $RootDir "scripts/windows-installer.iss"
+
+function Get-Version {
+    if ($env:GITHUB_REF_NAME) {
+        return $env:GITHUB_REF_NAME -replace '^v', ''
+    }
+
+    $GitVersion = git describe --tags --exact-match 2>$null
+    if ($LASTEXITCODE -eq 0 -and $GitVersion) {
+        return $GitVersion -replace '^v', ''
+    }
+
+    return "0.1.0"
+}
+
+function Find-QtTool {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$ToolName
+    )
+
+    $Command = Get-Command $ToolName -ErrorAction SilentlyContinue
+    if ($Command) {
+        return $Command.Source
+    }
+
+    if ($env:Qt6_DIR) {
+        $Candidate = Join-Path (Split-Path -Parent (Split-Path -Parent $env:Qt6_DIR)) "bin\$ToolName.exe"
+        if (Test-Path $Candidate) {
+            return $Candidate
+        }
+    }
+
+    throw "missing Qt tool: $ToolName"
+}
+
+function Find-InnoSetup {
+    $Command = Get-Command iscc -ErrorAction SilentlyContinue
+    if ($Command) {
+        return $Command.Source
+    }
+
+    $Candidates = @(
+        "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe",
+        "${env:ProgramFiles}\Inno Setup 6\ISCC.exe"
+    ) | Where-Object { $_ -and (Test-Path $_) }
+
+    if ($Candidates.Count -gt 0) {
+        return $Candidates[0]
+    }
+
+    return $null
+}
+
+$Version = Get-Version
 $PackageDir = Join-Path $DistDir "$AppName-windows-$Version"
 $ZipPath = "$PackageDir.zip"
-$InstallerScript = Join-Path $RootDir "scripts/windows-installer.iss"
 $InstallerPath = Join-Path $DistDir "$AppName-windows-$Version-setup.exe"
 
 if (Test-Path $BuildDir) {
@@ -35,8 +88,8 @@ if (Test-Path $PackageDir) {
 New-Item -ItemType Directory -Force -Path $PackageDir | Out-Null
 Copy-Item $ExePath $PackageDir
 
-$DeployTool = Get-Command windeployqt -ErrorAction Stop
-& $DeployTool.Source --release --dir $PackageDir $ExePath
+$DeployTool = Find-QtTool -ToolName "windeployqt"
+& $DeployTool --release --dir $PackageDir $ExePath
 
 if (Test-Path $ZipPath) {
     Remove-Item -Force $ZipPath
@@ -45,12 +98,12 @@ if (Test-Path $ZipPath) {
 Compress-Archive -Path "$PackageDir\*" -DestinationPath $ZipPath
 Write-Host "created $ZipPath"
 
-$Iscc = Get-Command iscc -ErrorAction SilentlyContinue
+$Iscc = Find-InnoSetup
 if ($Iscc) {
     $env:DEVICE_LINK_VERSION = $Version
     $env:DEVICE_LINK_PACKAGE_DIR = $PackageDir
     $env:DEVICE_LINK_DIST_DIR = $DistDir
-    & $Iscc.Source $InstallerScript
+    & $Iscc $InstallerScript
     if (Test-Path $InstallerPath) {
         Write-Host "created $InstallerPath"
     }
