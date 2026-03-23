@@ -108,11 +108,20 @@ Write-Host "created $ZipPath"
 
 $Iscc = Find-InnoSetup
 if ($Iscc) {
-    $env:DEVICE_LINK_VERSION = $Version
-    $env:DEVICE_LINK_PACKAGE_DIR = $PackageDir
-    $env:DEVICE_LINK_DIST_DIR = $DistDir
-    & $Iscc $InstallerScript
-    if (Test-Path $InstallerPath) {
-        Write-Host "created $InstallerPath"
+    try {
+        $env:DEVICE_LINK_VERSION = $Version
+        $env:DEVICE_LINK_PACKAGE_DIR = $PackageDir
+        $env:DEVICE_LINK_DIST_DIR = $DistDir
+        & $Iscc $InstallerScript
+        if ($LASTEXITCODE -ne 0) {
+            throw "Inno Setup exited with code $LASTEXITCODE"
+        }
+        if (Test-Path $InstallerPath) {
+            Write-Host "created $InstallerPath"
+        }
+    }
+    catch {
+        Write-Warning "Windows installer packaging failed: $($_.Exception.Message)"
+        Write-Warning "zip package was created successfully and release will continue."
     }
 }
