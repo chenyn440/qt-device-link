@@ -33,12 +33,16 @@ bash scripts/release-local.sh macos
 ./scripts/package-windows.ps1
 ```
 
-如果本机安装了 `Inno Setup`，会同时产出：
+固定产物：
 
 - `DeviceLink-windows-<version>.zip`
+
+如果本机安装了 `Inno Setup`，还会额外产出：
+
 - `DeviceLink-windows-<version>-setup.exe`
 
 如果没有安装 `Inno Setup`，仍会产出 zip，不会阻塞构建。
+如果安装器编译失败，脚本会保留 zip 并继续返回成功，避免阻断正式发布。
 
 ## GitHub 线上发布步骤
 
@@ -56,6 +60,11 @@ git push origin v1.0.0
    - 创建 GitHub Release
    - 上传 Release Assets
 
+说明：
+
+- GitHub Release 以 macOS `.dmg` 和 Windows `.zip` 为正式主产物
+- Windows 安装器 `.exe` 属于附加产物，生成成功时会一起上传
+
 ## GitHub Secrets
 
 如果要启用 macOS 签名 / 公证，需要在 GitHub 仓库中配置：
@@ -67,3 +76,10 @@ git push origin v1.0.0
 
 - 未配置这些 Secrets 时，产出未签名 macOS 包
 - 已配置时，`scripts/package-macos.sh` 会尝试签名和 notarization
+
+## 当前已验证状态
+
+- `main` 已支持本地 macOS 打包
+- `main` 已支持本地 Windows zip 打包
+- GitHub tag 发布链路已验证打通
+- Windows 安装器当前默认使用英文 Inno Setup 向导

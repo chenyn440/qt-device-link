@@ -61,7 +61,7 @@ Windows:
 
 - macOS: `DeviceLink-macOS-<version>.dmg`
 - Windows: `DeviceLink-windows-<version>.zip`
-- Windows 安装器: `DeviceLink-windows-<version>-setup.exe`
+- Windows 安装器: `DeviceLink-windows-<version>-setup.exe`（若本机 `Inno Setup` 可用则额外生成）
 
 ### GitHub 自动发布
 
@@ -87,7 +87,7 @@ git push origin v1.0.0
 
 - macOS `.dmg`
 - Windows `.zip`
-- Windows 安装器 `.exe`
+- Windows 安装器 `.exe`（若 GitHub runner 上安装器编译成功则一并上传）
 
 并作为 Release Assets 上传到对应 GitHub Release。
 
@@ -107,7 +107,9 @@ git push origin v1.0.0
 ### 当前限制
 
 - macOS 签名 / 公证依赖你在本机或 GitHub Secrets 里提供证书和 notary profile
-- 如果后续需要 `.pkg`、`.exe` 安装器或自动更新，可在这套链路上继续扩展
+- Windows release 以 `.zip` 为强保证产物，安装器 `.exe` 为附加产物，不阻断正式发布
+- 当前 Inno Setup 安装器默认使用英文向导；如果后续需要稳定的中文安装器，可以再补兼容 runner 的语言资源方案
+- 如果后续需要 `.pkg`、自动更新或更完整的 Windows 安装器能力，可在这套链路上继续扩展
 
 ## 测试
 
