@@ -31,9 +31,17 @@ function Find-QtTool {
     }
 
     if ($env:Qt6_DIR) {
-        $Candidate = Join-Path (Split-Path -Parent (Split-Path -Parent $env:Qt6_DIR)) "bin\$ToolName.exe"
-        if (Test-Path $Candidate) {
-            return $Candidate
+        $SearchDir = $env:Qt6_DIR
+        for ($i = 0; $i -lt 5 -and $SearchDir; $i++) {
+            $Candidate = Join-Path (Split-Path -Parent $SearchDir) "bin\$ToolName.exe"
+            if (Test-Path $Candidate) {
+                return $Candidate
+            }
+            $ParentDir = Split-Path -Parent $SearchDir
+            if ($ParentDir -eq $SearchDir) {
+                break
+            }
+            $SearchDir = $ParentDir
         }
     }
 

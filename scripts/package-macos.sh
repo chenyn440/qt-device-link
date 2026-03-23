@@ -19,12 +19,21 @@ find_qt_tool() {
     fi
 
     if [[ -n "${Qt6_DIR:-}" ]]; then
-        local qt6_bin
-        qt6_bin="$(cd "${Qt6_DIR}/../../bin" 2>/dev/null && pwd || true)"
-        if [[ -n "${qt6_bin}" && -x "${qt6_bin}/${tool_name}" ]]; then
-            echo "${qt6_bin}/${tool_name}"
-            return 0
-        fi
+        local search_dir
+        search_dir="${Qt6_DIR}"
+
+        for _ in 1 2 3 4 5; do
+            local candidate
+            candidate="$(cd "${search_dir}/../bin" 2>/dev/null && pwd || true)"
+            if [[ -n "${candidate}" && -x "${candidate}/${tool_name}" ]]; then
+                echo "${candidate}/${tool_name}"
+                return 0
+            fi
+            search_dir="$(cd "${search_dir}/.." 2>/dev/null && pwd || true)"
+            if [[ -z "${search_dir}" ]]; then
+                break
+            fi
+        done
     fi
 
     echo "missing Qt tool: ${tool_name}" >&2
