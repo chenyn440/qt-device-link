@@ -7,6 +7,8 @@ $Version = bash (Join-Path $RootDir "scripts/version.sh")
 $AppName = "DeviceLink"
 $PackageDir = Join-Path $DistDir "$AppName-windows-$Version"
 $ZipPath = "$PackageDir.zip"
+$InstallerScript = Join-Path $RootDir "scripts/windows-installer.iss"
+$InstallerPath = Join-Path $DistDir "$AppName-windows-$Version-setup.exe"
 
 if (Test-Path $BuildDir) {
     Remove-Item -Recurse -Force $BuildDir
@@ -42,3 +44,14 @@ if (Test-Path $ZipPath) {
 
 Compress-Archive -Path "$PackageDir\*" -DestinationPath $ZipPath
 Write-Host "created $ZipPath"
+
+$Iscc = Get-Command iscc -ErrorAction SilentlyContinue
+if ($Iscc) {
+    $env:DEVICE_LINK_VERSION = $Version
+    $env:DEVICE_LINK_PACKAGE_DIR = $PackageDir
+    $env:DEVICE_LINK_DIST_DIR = $DistDir
+    & $Iscc.Source $InstallerScript
+    if (Test-Path $InstallerPath) {
+        Write-Host "created $InstallerPath"
+    }
+}

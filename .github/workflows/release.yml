@@ -23,6 +23,9 @@ jobs:
           cache: true
 
       - name: Package macOS
+        env:
+          APPLE_SIGN_IDENTITY: ${{ secrets.APPLE_SIGN_IDENTITY }}
+          APPLE_NOTARY_PROFILE: ${{ secrets.APPLE_NOTARY_PROFILE }}
         run: bash scripts/package-macos.sh
 
       - name: Upload macOS artifact
@@ -44,6 +47,10 @@ jobs:
           modules: qtserialport
           cache: true
 
+      - name: Install Inno Setup
+        shell: pwsh
+        run: choco install innosetup -y
+
       - name: Package Windows
         shell: pwsh
         run: ./scripts/package-windows.ps1
@@ -52,7 +59,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: windows-package
-          path: dist/*.zip
+          path: |
+            dist/*.zip
+            dist/*-setup.exe
 
   create-release:
     needs:
@@ -81,6 +90,7 @@ jobs:
 
             - macOS `.dmg`
             - Windows `.zip`
+            - Windows 安装器 `.exe`
 
             版本来源：`${{ github.ref_name }}`
           files: release-assets/*

@@ -61,6 +61,7 @@ Windows:
 
 - macOS: `DeviceLink-macOS-<version>.dmg`
 - Windows: `DeviceLink-windows-<version>.zip`
+- Windows 安装器: `DeviceLink-windows-<version>-setup.exe`
 
 ### GitHub 自动发布
 
@@ -85,15 +86,24 @@ git push origin v1.0.0
 
 - macOS `.dmg`
 - Windows `.zip`
+- Windows 安装器 `.exe`
 
 并作为 Release Assets 上传到对应 GitHub Release。
 
 应用窗口标题、macOS Bundle 版本和打包文件名都统一跟随 `CMake project version` 与发布 tag。
 
+### 可选签名 / 公证
+
+`scripts/package-macos.sh` 已预留以下环境变量：
+
+- `APPLE_SIGN_IDENTITY`
+- `APPLE_NOTARY_PROFILE`
+
+未提供时按未签名包构建；提供后会尝试执行签名和 notarization。
+
 ### 当前限制
 
-- 初版未接入代码签名和公证
-- Windows 初版为绿色包 zip，不含安装器
+- macOS 签名 / 公证依赖你在本机或 GitHub Secrets 里提供证书和 notary profile
 - 如果后续需要 `.pkg`、`.exe` 安装器或自动更新，可在这套链路上继续扩展
 
 ## 测试
