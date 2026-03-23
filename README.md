@@ -70,6 +70,7 @@ Windows:
 - `.github/workflows/ci.yml`
 - `.github/workflows/release.yml`
 - `RELEASE.md`
+- `CHANGELOG.md`
 
 工作流行为：
 
@@ -94,6 +95,7 @@ git push origin v1.0.0
 应用窗口标题、macOS Bundle 版本和打包文件名都统一跟随 `CMake project version` 与发布 tag。
 
 本地 / 线上打包对应关系和完整发布步骤见 [RELEASE.md](/Users/chenyongnuan/Desktop/百度/deviceLink/RELEASE.md)。
+版本变更记录见 [CHANGELOG.md](/Users/chenyongnuan/Desktop/百度/deviceLink/CHANGELOG.md)。
 
 ### 可选签名 / 公证
 
